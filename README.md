@@ -9,7 +9,8 @@ A player wins the game by placing 3 symbols (either X or O) in line.
 
 ## Built With
 
-- Ruby,
+- Ruby
+- Ruby on Rails
 - Rubocop
 
 ## Getting Started
@@ -37,17 +38,7 @@ To install Ruby go to this [page](https://www.ruby-lang.org/en/) and follow the 
 #### Rubocop:
 Run `gem install rubocop`
 
-### Usage (Game instructions)
-
-- First run `./bin/main.rb` in the terminal being in the root folder.
-- You will see the welcome screen and the default appearance of the board.
-- The first player will be prompted to place an "X" on the board using numbers between 1 and 9.
-- After the selection, the updated board will be displayed with the placed "X".
-- Now the second player will be prompted to place an "O" on the board using numbers between 1 and 9 but only the available positions.
-- After the selection, the updated board will be displayed with the placed "O".
-- The players will continue entering selections in turns until there is a winner or the game ends in a draw.
-- The winner will be the first player who places three symbols in a line. The line could be horizontal, vertical or diagonal.
-
+### Usage
 ## Authors
 
 👤 **Samuel Almao Herrera**
