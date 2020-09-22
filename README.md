@@ -14,7 +14,7 @@ This is light implementation of the Reddit page using Rails.
 
 To get a local copy up and running follow these simple example steps:
 
-- Clone the project from [here](https://github.com/pbkabali/Tic-Tac-Toe)
+- Clone the project from [here](https://github.com/jssarrazolaa/ActiveRecord-RoR)
 
 
 ### Prerequisites
@@ -27,12 +27,19 @@ To get a local copy up and running follow these simple example steps:
 ### Setup
 
 Navigate to the root folder.
-Run `./bin/main.rb`
+Run:
+- `rails db:migrate`
+- `rails console`
 
 ### Install
 
 #### Ruby:
+
 To install Ruby go to this [page](https://www.ruby-lang.org/en/) and follow the instructions given.
+
+#### Rails:
+
+To install Rails go to this [page](https://rubyonrails.org/) and follow the instructions given.
 
 #### Rubocop:
 Run `gem install rubocop`
@@ -54,7 +61,7 @@ Run `gem install rubocop`
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/pbkabali/Tic-Tac-Toe/issues).
+Feel free to check the [issues page](https://github.com/jssarrazolaa/ActiveRecord-RoR/issues).
 
 ## Show your support
 
@@ -62,9 +69,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse team 140 - The Cupids
-- Microverse team 138 - The Atlas
 - The odin project
+- Microverse
 
 ## 📝 License
 
