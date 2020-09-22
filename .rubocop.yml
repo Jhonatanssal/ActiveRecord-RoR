@@ -1,125 +1,59 @@
-Skip to content
-microverseinc
-/
-linters-config
-Code
-Issues
-1
-Pull requests
-3
-Actions
-Projects
-More
-You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork SigmaSam/linters-config, so you can send a pull request.
-linters-config
-/
-ror
-/
-.rubocop.yml
-1
 AllCops:
-2
   Exclude:
-3
     - "db/**/*"
-4
     - "bin/*" 
-5
     - "config/**/*"
-6
     - "Guardfile"
-7
     - "Rakefile"
-8
     - "node_modules/**/*"
-9
-​
-10
+
   DisplayCopNames: true
-11
-​
-12
+
 Layout/LineLength:
-13
   Max: 120
-14
 Metrics/MethodLength:
-15
   Include:
-16
     - "app/controllers/*"
-17
     - "app/models/*"
-18
   Max: 20
-19
 Metrics/AbcSize:
-20
   Include:
-21
     - "app/controllers/*"
-22
     - "app/models/*"
-23
   Max: 50
-24
 Metrics/ClassLength:
-25
   Max: 150
-26
 Metrics/BlockLength:
-27
   ExcludedMethods: ['describe']
-28
   Max: 30
-29
-​
-30
+
 Style/Documentation:
-31
   Enabled: false
-32
 Style/ClassAndModuleChildren:
-33
   Enabled: false
-34
 Style/EachForSimpleLoop:
-35
   Enabled: false
-36
 Style/AndOr:
-37
   Enabled: false
-38
 Style/DefWithParentheses:
-39
   Enabled: false
-40
 Style/FrozenStringLiteralComment:
-41
   EnforcedStyle: never
-42
-​
-43
+
 Layout/HashAlignment:
-44
   EnforcedColonStyle: key
-45
 Layout/ExtraSpacing:
-Propose changes
-Commit summary
-Update .rubocop.yml
-Optional extended description
-Add an optional extended description…
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+  AllowForAlignment: false
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
