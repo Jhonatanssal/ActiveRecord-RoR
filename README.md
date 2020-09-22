@@ -1,11 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ruby Project: Tic Tac Toe Game
+# RoR Project: ActiveRecord
 
-![screenshot](app_screenshot.png)
-
-This is a Ruby implementation of the popular Tic Tac Toe game.
-A player wins the game by placing 3 symbols (either X or O) in line.
+This is light implementation of the Reddit page using Rails.
 
 ## Built With
 
