@@ -20,6 +20,8 @@ To get a local copy up and running follow these simple example steps:
 ### Prerequisites
 
 - Ruby 2.7.x
+- Rails
+- Yarn
 - Terminal
 
 ### Setup
